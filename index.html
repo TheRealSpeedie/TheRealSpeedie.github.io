@@ -1,11 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Agenda App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            text-align: center;
+        }
+        header {
+            background: #0078D7;
+            color: white;
+            padding: 20px 0;
+        }
+        section {
+            padding: 20px;
+            background: white;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #0078D7;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            background: #0078D7;
+            color: white;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .preise p {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <h1>Ich bin eine Biene</h1>
+    <header>
+        <h1>Agenda App</h1>
+    </header>
+    <div class="container">
+        <section>
+            <h1>Agenda App</h1>
+            <p>Entwickelt von Aileen Kösters & Nadja Sturzenegger</p>
+        </section>
+        <section>
+            <h2>Überblick</h2>
+            <p>Die Agenda App hilft jedem Menschen dabei, seine Termine zu verwalten – egal ob Meetings oder einfache To-Do's.</p>
+        </section>
+        <section>
+            <h2>Funktionalitäten</h2>
+            <ul>
+                <li>ToDo's Hinzufügen</li>
+                <li>ToDo's Abhaken können</li>
+                <li>ToDo's bearbeiten</li>
+                <li>Abgeschlossene ToDo's seperat auflisten</li>
+                <li>Abgeschlossene ToDo's sollen ausgeblendet werden</li>
+            </ul>
+        </section>
+        <section class="preise">
+            <h2>Preise</h2>
+            <p>Gratis, Open Source Projekt</p>
+        </section>
+    </div>
 </body>
 </html>
